@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="1" lineNum="5" parent="globals/MyMonkeyApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="2" lineNum="26" parent="globals" pc="268435472" symbol="getApp"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="2" lineNum="27" parent="globals" pc="268435482" symbol="getApp"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="3" lineNum="25" parent="globals/MyMonkeyView" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="5" lineNum="22" parent="globals/Battery" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="6" lineNum="12" parent="globals/MyMonkeyApp" pc="268435537" symbol="onStart"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="7" lineNum="20" parent="globals/MyMonkeyApp" pc="268435540" symbol="getInitialView"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="7" lineNum="21" parent="globals/MyMonkeyApp" pc="268435542" symbol="getInitialView"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="8" lineNum="7" parent="globals/MyMonkeyApp" pc="268435568" symbol="initialize"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="8" lineNum="8" parent="globals/MyMonkeyApp" pc="268435570" symbol="initialize"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyApp.mc" id="9" lineNum="16" parent="globals/MyMonkeyApp" pc="268435583" symbol="onStop"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="12" lineNum="32" parent="globals/MyMonkeyView" pc="268435586" symbol="onLayout"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="12" lineNum="33" parent="globals/MyMonkeyView" pc="268435588" symbol="onLayout"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="14" lineNum="27" parent="globals/MyMonkeyView" pc="268435622" symbol="initialize"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="14" lineNum="28" parent="globals/MyMonkeyView" pc="268435624" symbol="initialize"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="43" parent="globals/MyMonkeyView" pc="268435637" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="46" parent="globals/MyMonkeyView" pc="268435640" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="49" parent="globals/MyMonkeyView" pc="268435652" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="50" parent="globals/MyMonkeyView" pc="268435678" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="51" parent="globals/MyMonkeyView" pc="268435703" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="52" parent="globals/MyMonkeyView" pc="268435711" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="54" parent="globals/MyMonkeyView" pc="268435719" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="55" parent="globals/MyMonkeyView" pc="268435726" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="57" parent="globals/MyMonkeyView" pc="268435736" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="58" parent="globals/MyMonkeyView" pc="268435743" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="61" parent="globals/MyMonkeyView" pc="268435753" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="73" parent="globals/MyMonkeyView" pc="268435804" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="84" parent="globals/MyMonkeyView" pc="268435875" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="101" parent="globals/MyMonkeyView" pc="268435964" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="102" parent="globals/MyMonkeyView" pc="268435976" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="105" parent="globals/MyMonkeyView" pc="268435984" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="109" parent="globals/MyMonkeyView" pc="268435992" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="111" parent="globals/MyMonkeyView" pc="268436053" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="112" parent="globals/MyMonkeyView" pc="268436077" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="115" parent="globals/MyMonkeyView" pc="268436089" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="116" parent="globals/MyMonkeyView" pc="268436113" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="119" parent="globals/MyMonkeyView" pc="268436131" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="120" parent="globals/MyMonkeyView" pc="268436155" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="123" parent="globals/MyMonkeyView" pc="268436167" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="124" parent="globals/MyMonkeyView" pc="268436191" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="126" parent="globals/MyMonkeyView" pc="268436203" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="127" parent="globals/MyMonkeyView" pc="268436227" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\MyMonkeyView.mc" id="16" lineNum="130" parent="globals/MyMonkeyView" pc="268436239" symbol="onUpdate"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="17" lineNum="27" parent="globals/Battery" pc="268436260" symbol="initialize"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="17" lineNum="29" parent="globals/Battery" pc="268436262" symbol="initialize"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="37" parent="globals/Battery" pc="268436279" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="39" parent="globals/Battery" pc="268436282" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="40" parent="globals/Battery" pc="268436302" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="43" parent="globals/Battery" pc="268436332" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="44" parent="globals/Battery" pc="268436346" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="47" parent="globals/Battery" pc="268436356" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="50" parent="globals/Battery" pc="268436362" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="18" lineNum="51" parent="globals/Battery" pc="268436376" symbol="draw"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="19" lineNum="32" parent="globals/Battery" pc="268436425" symbol="setLevel"/>
+        <entry filename="D:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\source\\Battery.mc" id="19" lineNum="34" parent="globals/Battery" pc="268436427" symbol="setLevel"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268436437" symbol="WatchFace"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436448" symbol="WatchFace"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436520" symbol="WatchFace"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436605" symbol="WatchFace"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436691" symbol="WatchFace"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436795" symbol="WatchFace"/>
+        <entry filename="d:\\stefan.steiger\\Downloads\\connectiq-sdk-manager-windows\\ffasdfasdf\\MyMonkey\\bin\\gen\\006-B4024-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268436882" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" object="true" symbol="MyMonkeyApp"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="13" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="11" method="true" symbol="setLevel"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="10" symbol="batteryLevel"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="12" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="6" object="true" symbol="Battery"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8" object="true" symbol="MyMonkeyView"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="9" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435621" name="dc" stackId="1" startPc="268435586"/>
+        <entry arg="true" endPc="268436259" name="dc" stackId="1" startPc="268435637"/>
+        <entry endPc="268436258" name="clockTime" stackId="2" startPc="268435640"/>
+        <entry endPc="268436258" name="todayMedium" stackId="3" startPc="268435640"/>
+        <entry endPc="268436258" name="todayShort" stackId="4" startPc="268435640"/>
+        <entry endPc="268436258" name="weekdayNumber" stackId="5" startPc="268435640"/>
+        <entry endPc="268436258" name="monthNumber" stackId="6" startPc="268435640"/>
+        <entry endPc="268436258" name="weekdayNames" stackId="7" startPc="268435640"/>
+        <entry endPc="268436258" name="weekdayStr" stackId="8" startPc="268435640"/>
+        <entry endPc="268436258" name="monthNames" stackId="9" startPc="268435640"/>
+        <entry endPc="268436258" name="mnthStr" stackId="10" startPc="268435640"/>
+        <entry endPc="268436258" name="dateString" stackId="11" startPc="268435640"/>
+        <entry endPc="268436258" name="dateStringNum" stackId="12" startPc="268435640"/>
+        <entry endPc="268436258" name="timeString" stackId="13" startPc="268435640"/>
+        <entry endPc="268436258" name="stats" stackId="14" startPc="268435640"/>
+        <entry endPc="268436258" name="battery" stackId="15" startPc="268435640"/>
+        <entry endPc="268436258" name="isCharging" stackId="16" startPc="268435640"/>
+        <entry endPc="268436258" name="batteryString" stackId="17" startPc="268435640"/>
+        <entry endPc="268436258" name="batteryView" stackId="18" startPc="268435640"/>
+        <entry endPc="268436258" name="batteryIcon" stackId="19" startPc="268435640"/>
+        <entry endPc="268436258" name="numericDateView" stackId="20" startPc="268435640"/>
+        <entry endPc="268436258" name="dateView" stackId="21" startPc="268435640"/>
+        <entry endPc="268436258" name="view" stackId="22" startPc="268435640"/>
+        <entry arg="true" endPc="268436278" name="options" stackId="1" startPc="268436260"/>
+        <entry arg="true" endPc="268436424" name="dc" stackId="1" startPc="268436279"/>
+        <entry endPc="268436423" name="color" stackId="2" startPc="268436282"/>
+        <entry arg="true" endPc="268436436" name="percentage" stackId="1" startPc="268436425"/>
+        <entry arg="true" endPc="268436911" name="dc" stackId="1" startPc="268436437"/>
+        <entry endPc="268436911" name="rez_cmp_local_custom_drawable_Battery" stackId="2" startPc="268436448"/>
+        <entry endPc="268436911" name="rez_cmp_local_text_BatteryLabel" stackId="3" startPc="268436448"/>
+        <entry endPc="268436911" name="rez_cmp_local_text_DateLabel" stackId="4" startPc="268436448"/>
+        <entry endPc="268436911" name="rez_cmp_local_text_TimeLabel" stackId="5" startPc="268436448"/>
+        <entry endPc="268436911" name="rez_cmp_local_text_DateLabelNumeric" stackId="6" startPc="268436448"/>
+    </localVars>
+    <deviceInfo deviceVersion="0ed082a335bbf00c12e5da810e92d4f89288090c" partNumber="006-B4024-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/MyMonkeyApp" offset="134" parentId="globals" symbolId="MyMonkeyApp" type="class"/>
+        <dataEntry label="globals/MyMonkeyView" offset="205" parentId="globals" symbolId="MyMonkeyView" type="class"/>
+        <dataEntry label="globals/Rez" offset="303" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Battery" offset="356" parentId="globals" symbolId="Battery" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="427" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="462" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="497" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="MyMonkeyApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="getApp" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="MyMonkeyView" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="Battery" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435539" name="onStart" parent="MyMonkeyApp" startPc="268435537">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435567" name="getInitialView" parent="MyMonkeyApp" startPc="268435540">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435582" name="initialize" parent="MyMonkeyApp" startPc="268435568">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435585" name="onStop" parent="MyMonkeyApp" startPc="268435583">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="MyMonkeyView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="MyMonkeyView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435621" name="onLayout" parent="MyMonkeyView" startPc="268435586">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="MyMonkeyView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435636" name="initialize" parent="MyMonkeyView" startPc="268435622">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="MyMonkeyView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436259" name="onUpdate" parent="MyMonkeyView" startPc="268435637">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436278" name="initialize" parent="Battery" startPc="268436260">
+            <param id="options"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436424" name="draw" parent="Battery" startPc="268436279">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436436" name="setLevel" parent="Battery" startPc="268436425">
+            <param id="percentage"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436911" name="WatchFace" parent="Layouts" startPc="268436437">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

@@ -1,0 +1,156 @@
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [WatchUi,5,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [System,7,13,19]; ]
+using Toybox.System;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [Time,8,13,17]; ]
+using Toybox.Time;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 9; @symbol_usingdef<0> = [Toybox,9,6,12]; @symbol_usingdef<1> = [Time,9,13,17]; @symbol_usingdef<2> = [Gregorian,9,18,27]; ]
+using Toybox.Time.Gregorian;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 13; @symbol_usingdef<0> = [Toybox,13,6,12]; @symbol_usingdef<1> = [Graphics,13,13,21]; @symbol_usingAlias = [Gfx,13,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 22; @symbol_classdef = [Battery,22,6,13]; @symbol_extends<0> = [Toybox,22,22,28]; @symbol_extends<1> = [WatchUi,22,29,36]; @symbol_extends<2> = [Drawable,22,37,45]; ]
+class Battery extends Toybox.WatchUi.Drawable {
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 22; ]
+    <init> {
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 22; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 24; @position = 15; @symbol_vardef = [batteryLevel,24,15,27]; ]
+    protected
+    var batteryLevel;
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 27; @symbol_functiondef = [initialize,27,13,23]; @symbol_param<0> = [options,27,24,31]; ]
+    function initialize(options) as Void {
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_28_4_30_4_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 29 8 ]
+        symbol [ Drawable %tmp.2 29 8 16 ];
+        %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 29 17 27 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %options;
+        symbol [ options %tmp.4 29 28 35 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_28_4_30_4_stop:
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 32; @symbol_functiondef = [setLevel,32,13,21]; @symbol_param<0> = [percentage,32,22,32]; ]
+    function setLevel(percentage) {
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_33_4_35_4_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 34 8 ]
+        %tmp.1 = lgetv %percentage;
+        symbol [ percentage %tmp.1 34 23 33 ];
+        symbol [ batteryLevel ? 34 8 20 ];
+        putv self :batteryLevel %tmp.1;
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_33_4_35_4_stop:
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 37; @symbol_functiondef = [draw,37,13,17]; @symbol_param<0> = [dc,37,18,20]; @symbol_param<0>_type<0> = [Dc,37,24,26]; ]
+    function draw(dc as Dc) {
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_38_4_52_4_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 39 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 39 8 10 ];
+        symbol [ setColor %tmp.2 39 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Gfx %tmp.3 39 20 23 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.4 39 24 37 ];
+        %tmp.4 = getv %tmp.3 :COLOR_LT_GRAY;
+        symbol [ Gfx %tmp.5 39 39 42 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.6 39 43 56 ];
+        %tmp.6 = getv %tmp.5 :COLOR_LT_GRAY;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 40 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 40 8 10 ];
+        symbol [ drawRectangle %tmp.8 40 11 24 ];
+        %tmp.8 = getv function %tmp.7 :drawRectangle;
+        symbol [ locX %tmp.10 40 25 29 ];
+        %tmp.10 = getv ? :locX;
+        symbol [ locY %tmp.12 40 31 35 ];
+        %tmp.12 = getv ? :locY;
+        symbol [ width %tmp.14 40 37 42 ];
+        %tmp.14 = getv ? :width;
+        symbol [ height %tmp.16 40 44 50 ];
+        %tmp.16 = getv ? :height;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.16);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 42 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_38_4_52_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_38_4_52_4_stop" ]
+        %color.1 = local;
+        symbol [ color %color.1 42 12 17 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 43 8 ]
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_8_48_8_if_stmt:
+        symbol [ batteryLevel %tmp.18 43 12 24 ];
+        %tmp.18 = getv ? :batteryLevel;
+        %tmp.19 = 0.25;
+        %tmp.20 = lt %tmp.18 %tmp.19;
+        bf %tmp.20 @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_8_48_8_if_else_false;
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_8_48_8_if_true:
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_33_45_8_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 44 8 ]
+        symbol [ Gfx %tmp.21 44 16 19 ];
+        %tmp.21 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.22 44 20 29 ];
+        %tmp.22 = getv %tmp.21 :COLOR_RED;
+        lputv %color.1 %tmp.22;
+        symbol [ color %color.1 44 8 13 ];
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_33_45_8_stop:
+        goto @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_8_48_8_if_end;
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_8_48_8_if_else_false:
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_46_13_48_8_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 47 8 ]
+        symbol [ Gfx %tmp.23 47 16 19 ];
+        %tmp.23 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.24 47 20 31 ];
+        %tmp.24 = getv %tmp.23 :COLOR_GREEN;
+        lputv %color.1 %tmp.24;
+        symbol [ color %color.1 47 8 13 ];
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_46_13_48_8_stop:
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_43_8_48_8_if_end:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 50 8 ]
+        %tmp.25 = lgetv %dc;
+        symbol [ dc %tmp.25 50 8 10 ];
+        symbol [ setColor %tmp.26 50 11 19 ];
+        %tmp.26 = getv function %tmp.25 :setColor;
+        %tmp.27 = lgetv %color.1;
+        symbol [ color %tmp.27 50 20 25 ];
+        %tmp.28 = lgetv %color.1;
+        symbol [ color %tmp.28 50 27 32 ];
+        invoke %tmp.25 %tmp.26(%tmp.27, %tmp.28);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc" 51 8 ]
+        %tmp.29 = lgetv %dc;
+        symbol [ dc %tmp.29 51 8 10 ];
+        symbol [ fillRectangle %tmp.30 51 11 24 ];
+        %tmp.30 = getv function %tmp.29 :fillRectangle;
+        symbol [ locX %tmp.32 51 25 29 ];
+        %tmp.32 = getv ? :locX;
+        %tmp.33 = 2;
+        %tmp.34 = add %tmp.32 %tmp.33;
+        symbol [ locY %tmp.36 51 35 39 ];
+        %tmp.36 = getv ? :locY;
+        %tmp.37 = 2;
+        %tmp.38 = add %tmp.36 %tmp.37;
+        symbol [ width %tmp.40 51 46 51 ];
+        %tmp.40 = getv ? :width;
+        %tmp.41 = 4;
+        %tmp.42 = sub %tmp.40 %tmp.41;
+        symbol [ batteryLevel %tmp.44 51 59 71 ];
+        %tmp.44 = getv ? :batteryLevel;
+        %tmp.45 = mul %tmp.42 %tmp.44;
+        symbol [ height %tmp.47 51 73 79 ];
+        %tmp.47 = getv ? :height;
+        %tmp.48 = 4;
+        %tmp.49 = sub %tmp.47 %tmp.48;
+        invoke %tmp.29 %tmp.30(%tmp.34, %tmp.38, %tmp.45, %tmp.49);
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_Battery_mc_38_4_52_4_stop:
+    }
+}
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\Battery.mc"; @line = 2; ]
+<init> {
+}

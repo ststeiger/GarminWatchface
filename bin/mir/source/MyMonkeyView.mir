@@ -1,0 +1,542 @@
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [System,6,13,19]; ]
+using Toybox.System;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [Time,7,13,17]; ]
+using Toybox.Time;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [Time,8,13,17]; @symbol_usingdef<2> = [Gregorian,8,18,27]; ]
+using Toybox.Time.Gregorian;
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 38; @symbol_classdef = [MyMonkeyView,38,6,18]; @symbol_extends<0> = [WatchUi,38,27,34]; @symbol_extends<1> = [WatchFace,38,35,44]; ]
+class MyMonkeyView extends WatchUi.WatchFace {
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 38; ]
+    <init> {
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 38; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 40; @symbol_functiondef = [initialize,40,13,23]; ]
+    function initialize() as Void {
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_40_26_42_4_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 41 8 ]
+        symbol [ WatchFace %tmp.2 41 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 41 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_40_26_42_4_stop:
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 45; @symbol_functiondef = [onLayout,45,13,21]; @symbol_param<0> = [dc,45,22,24]; @symbol_param<0>_type<0> = [Dc,45,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_45_40_47_4_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 46 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 46 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 46 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 46 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ WatchFace %tmp.6 46 30 39 ];
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 46 40 42 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_45_40_47_4_stop:
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 52; @symbol_functiondef = [onShow,52,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 56; @symbol_functiondef = [onUpdate,56,13,21]; @symbol_param<0> = [dc,56,22,24]; @symbol_param<0>_type<0> = [Dc,56,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start:
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 59 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 59 12 21 ];
+        symbol [ System %tmp.1 59 24 30 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.2 59 31 43 ];
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+        symbol [ clockTime %clockTime.1 59 12 21 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 62 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %todayMedium.2 = local;
+        symbol [ todayMedium %todayMedium.2 62 12 23 ];
+        symbol [ Gregorian %tmp.4 62 26 35 ];
+        %tmp.4 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.5 62 36 40 ];
+        %tmp.5 = getv function %tmp.4 :info;
+        symbol [ Time %tmp.6 62 41 45 ];
+        %tmp.6 = getm $.Toybox.Time;
+        symbol [ now %tmp.7 62 46 49 ];
+        %tmp.7 = getv function %tmp.6 :now;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        symbol [ Time %tmp.9 62 53 57 ];
+        %tmp.9 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.10 62 58 71 ];
+        %tmp.10 = getv %tmp.9 :FORMAT_MEDIUM;
+        %tmp.11 = invoke %tmp.4 %tmp.5(%tmp.8, %tmp.10);
+        lputv %todayMedium.2 %tmp.11;
+        symbol [ todayMedium %todayMedium.2 62 12 23 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 63 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %todayShort.3 = local;
+        symbol [ todayShort %todayShort.3 63 12 22 ];
+        symbol [ Gregorian %tmp.12 63 25 34 ];
+        %tmp.12 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.13 63 35 39 ];
+        %tmp.13 = getv function %tmp.12 :info;
+        symbol [ Time %tmp.14 63 40 44 ];
+        %tmp.14 = getm $.Toybox.Time;
+        symbol [ now %tmp.15 63 45 48 ];
+        %tmp.15 = getv function %tmp.14 :now;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        symbol [ Time %tmp.17 63 52 56 ];
+        %tmp.17 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.18 63 57 69 ];
+        %tmp.18 = getv %tmp.17 :FORMAT_SHORT;
+        %tmp.19 = invoke %tmp.12 %tmp.13(%tmp.16, %tmp.18);
+        lputv %todayShort.3 %tmp.19;
+        symbol [ todayShort %todayShort.3 63 12 22 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 64 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %weekdayNumber.4 = local;
+        symbol [ weekdayNumber %weekdayNumber.4 64 12 25 ];
+        %tmp.20 = lgetv %todayShort.3;
+        symbol [ todayShort %tmp.20 64 28 38 ];
+        symbol [ day_of_week %tmp.21 64 39 50 ];
+        %tmp.21 = getv %tmp.20 :day_of_week;
+        lputv %weekdayNumber.4 %tmp.21;
+        symbol [ weekdayNumber %weekdayNumber.4 64 12 25 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 65 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %monthNumber.5 = local;
+        symbol [ monthNumber %monthNumber.5 65 12 23 ];
+        %tmp.22 = lgetv %todayShort.3;
+        symbol [ todayShort %tmp.22 65 26 36 ];
+        symbol [ month %tmp.23 65 37 42 ];
+        %tmp.23 = getv %tmp.22 :month;
+        lputv %monthNumber.5 %tmp.23;
+        symbol [ monthNumber %monthNumber.5 65 12 23 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 67 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %weekdayNames.6 = local;
+        symbol [ weekdayNames %weekdayNames.6 67 12 24 ];
+        %tmp.24 = newa 7;
+        %tmp.25 = "So";
+        %tmp.26 = dup %tmp.24;
+        %tmp.27 = aputv %tmp.26 0 %tmp.25;
+        %tmp.28 = "Mo";
+        %tmp.29 = dup %tmp.27;
+        %tmp.30 = aputv %tmp.29 1 %tmp.28;
+        %tmp.31 = "Di";
+        %tmp.32 = dup %tmp.30;
+        %tmp.33 = aputv %tmp.32 2 %tmp.31;
+        %tmp.34 = "Mi";
+        %tmp.35 = dup %tmp.33;
+        %tmp.36 = aputv %tmp.35 3 %tmp.34;
+        %tmp.37 = "Do";
+        %tmp.38 = dup %tmp.36;
+        %tmp.39 = aputv %tmp.38 4 %tmp.37;
+        %tmp.40 = "Fr";
+        %tmp.41 = dup %tmp.39;
+        %tmp.42 = aputv %tmp.41 5 %tmp.40;
+        %tmp.43 = "Sa";
+        %tmp.44 = dup %tmp.42;
+        %tmp.45 = aputv %tmp.44 6 %tmp.43;
+        lputv %weekdayNames.6 %tmp.45;
+        symbol [ weekdayNames %weekdayNames.6 67 12 24 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 68 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %weekdayStr.7 = local;
+        symbol [ weekdayStr %weekdayStr.7 68 12 22 ];
+        %tmp.46 = lgetv %weekdayNames.6;
+        symbol [ weekdayNames %tmp.46 68 25 37 ];
+        %tmp.47 = lgetv %weekdayNumber.4;
+        symbol [ weekdayNumber %tmp.47 68 38 51 ];
+        %tmp.48 = 1;
+        %tmp.49 = sub %tmp.47 %tmp.48;
+        %tmp.50 = agetv %tmp.46 %tmp.49;
+        lputv %weekdayStr.7 %tmp.50;
+        symbol [ weekdayStr %weekdayStr.7 68 12 22 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 70 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %monthNames.8 = local;
+        symbol [ monthNames %monthNames.8 70 12 22 ];
+        %tmp.51 = newa 12;
+        %tmp.52 = "Jan";
+        %tmp.53 = dup %tmp.51;
+        %tmp.54 = aputv %tmp.53 0 %tmp.52;
+        %tmp.55 = "Feb";
+        %tmp.56 = dup %tmp.54;
+        %tmp.57 = aputv %tmp.56 1 %tmp.55;
+        %tmp.58 = "Mär";
+        %tmp.59 = dup %tmp.57;
+        %tmp.60 = aputv %tmp.59 2 %tmp.58;
+        %tmp.61 = "Apr";
+        %tmp.62 = dup %tmp.60;
+        %tmp.63 = aputv %tmp.62 3 %tmp.61;
+        %tmp.64 = "Mai";
+        %tmp.65 = dup %tmp.63;
+        %tmp.66 = aputv %tmp.65 4 %tmp.64;
+        %tmp.67 = "Jun";
+        %tmp.68 = dup %tmp.66;
+        %tmp.69 = aputv %tmp.68 5 %tmp.67;
+        %tmp.70 = "Jul";
+        %tmp.71 = dup %tmp.69;
+        %tmp.72 = aputv %tmp.71 6 %tmp.70;
+        %tmp.73 = "Aug";
+        %tmp.74 = dup %tmp.72;
+        %tmp.75 = aputv %tmp.74 7 %tmp.73;
+        %tmp.76 = "Sep";
+        %tmp.77 = dup %tmp.75;
+        %tmp.78 = aputv %tmp.77 8 %tmp.76;
+        %tmp.79 = "Oct";
+        %tmp.80 = dup %tmp.78;
+        %tmp.81 = aputv %tmp.80 9 %tmp.79;
+        %tmp.82 = "Nov";
+        %tmp.83 = dup %tmp.81;
+        %tmp.84 = aputv %tmp.83 10 %tmp.82;
+        %tmp.85 = "Dec";
+        %tmp.86 = dup %tmp.84;
+        %tmp.87 = aputv %tmp.86 11 %tmp.85;
+        lputv %monthNames.8 %tmp.87;
+        symbol [ monthNames %monthNames.8 70 12 22 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 71 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %mnthStr.9 = local;
+        symbol [ mnthStr %mnthStr.9 71 12 19 ];
+        %tmp.88 = lgetv %monthNames.8;
+        symbol [ monthNames %tmp.88 71 22 32 ];
+        %tmp.89 = lgetv %monthNumber.5;
+        symbol [ monthNumber %tmp.89 71 33 44 ];
+        %tmp.90 = 1;
+        %tmp.91 = sub %tmp.89 %tmp.90;
+        %tmp.92 = agetv %tmp.88 %tmp.91;
+        lputv %mnthStr.9 %tmp.92;
+        symbol [ mnthStr %mnthStr.9 71 12 19 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 74 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %dateString.10 = local;
+        symbol [ dateString %dateString.10 74 12 22 ];
+        symbol [ Lang %tmp.93 74 25 29 ];
+        %tmp.93 = getm $.Toybox.Lang;
+        symbol [ format %tmp.94 74 30 36 ];
+        %tmp.94 = getv function %tmp.93 :format;
+        %tmp.95 = "$1$, $2$. $3$ $4$";
+        %tmp.96 = newa 4;
+        %tmp.97 = lgetv %weekdayStr.7;
+        symbol [ weekdayStr %tmp.97 78 16 26 ];
+        %tmp.98 = dup %tmp.96;
+        %tmp.99 = aputv %tmp.98 0 %tmp.97;
+        %tmp.100 = lgetv %todayMedium.2;
+        symbol [ todayMedium %tmp.100 79 16 27 ];
+        symbol [ day %tmp.101 79 28 31 ];
+        %tmp.101 = getv %tmp.100 :day;
+        %tmp.102 = dup %tmp.99;
+        %tmp.103 = aputv %tmp.102 1 %tmp.101;
+        %tmp.104 = lgetv %mnthStr.9;
+        symbol [ mnthStr %tmp.104 80 16 23 ];
+        %tmp.105 = dup %tmp.103;
+        %tmp.106 = aputv %tmp.105 2 %tmp.104;
+        %tmp.107 = lgetv %todayMedium.2;
+        symbol [ todayMedium %tmp.107 81 16 27 ];
+        symbol [ year %tmp.108 81 28 32 ];
+        %tmp.108 = getv %tmp.107 :year;
+        %tmp.109 = dup %tmp.106;
+        %tmp.110 = aputv %tmp.109 3 %tmp.108;
+        %tmp.111 = invoke %tmp.93 %tmp.94(%tmp.95, %tmp.110);
+        lputv %dateString.10 %tmp.111;
+        symbol [ dateString %dateString.10 74 12 22 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 86 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %dateStringNum.11 = local;
+        symbol [ dateStringNum %dateStringNum.11 86 12 25 ];
+        symbol [ Lang %tmp.112 86 28 32 ];
+        %tmp.112 = getm $.Toybox.Lang;
+        symbol [ format %tmp.113 86 33 39 ];
+        %tmp.113 = getv function %tmp.112 :format;
+        %tmp.114 = "$1$.$2$.$3$";
+        %tmp.115 = newa 3;
+        %tmp.116 = lgetv %todayMedium.2;
+        symbol [ todayMedium %tmp.116 89 16 27 ];
+        symbol [ day %tmp.117 89 28 31 ];
+        %tmp.117 = getv %tmp.116 :day;
+        symbol [ format %tmp.118 89 32 38 ];
+        %tmp.118 = getv function %tmp.117 :format;
+        %tmp.119 = "%02d";
+        %tmp.120 = invoke %tmp.117 %tmp.118(%tmp.119);
+        %tmp.121 = dup %tmp.115;
+        %tmp.122 = aputv %tmp.121 0 %tmp.120;
+        %tmp.123 = lgetv %monthNumber.5;
+        symbol [ monthNumber %tmp.123 90 16 27 ];
+        symbol [ format %tmp.124 90 28 34 ];
+        %tmp.124 = getv function %tmp.123 :format;
+        %tmp.125 = "%02d";
+        %tmp.126 = invoke %tmp.123 %tmp.124(%tmp.125);
+        %tmp.127 = dup %tmp.122;
+        %tmp.128 = aputv %tmp.127 1 %tmp.126;
+        %tmp.129 = lgetv %todayMedium.2;
+        symbol [ todayMedium %tmp.129 91 16 27 ];
+        symbol [ year %tmp.130 91 28 32 ];
+        %tmp.130 = getv %tmp.129 :year;
+        %tmp.131 = dup %tmp.128;
+        %tmp.132 = aputv %tmp.131 2 %tmp.130;
+        %tmp.133 = invoke %tmp.112 %tmp.113(%tmp.114, %tmp.132);
+        lputv %dateStringNum.11 %tmp.133;
+        symbol [ dateStringNum %dateStringNum.11 86 12 25 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 97 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %timeString.12 = local;
+        symbol [ timeString %timeString.12 97 12 22 ];
+        symbol [ Lang %tmp.134 97 25 29 ];
+        %tmp.134 = getm $.Toybox.Lang;
+        symbol [ format %tmp.135 97 30 36 ];
+        %tmp.135 = getv function %tmp.134 :format;
+        %tmp.136 = "$1$:$2$:$3$";
+        %tmp.137 = newa 3;
+        %tmp.138 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.138 100 16 25 ];
+        symbol [ hour %tmp.139 100 26 30 ];
+        %tmp.139 = getv %tmp.138 :hour;
+        symbol [ format %tmp.140 100 31 37 ];
+        %tmp.140 = getv function %tmp.139 :format;
+        %tmp.141 = "%02d";
+        %tmp.142 = invoke %tmp.139 %tmp.140(%tmp.141);
+        %tmp.143 = dup %tmp.137;
+        %tmp.144 = aputv %tmp.143 0 %tmp.142;
+        %tmp.145 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.145 101 16 25 ];
+        symbol [ min %tmp.146 101 26 29 ];
+        %tmp.146 = getv %tmp.145 :min;
+        symbol [ format %tmp.147 101 30 36 ];
+        %tmp.147 = getv function %tmp.146 :format;
+        %tmp.148 = "%02d";
+        %tmp.149 = invoke %tmp.146 %tmp.147(%tmp.148);
+        %tmp.150 = dup %tmp.144;
+        %tmp.151 = aputv %tmp.150 1 %tmp.149;
+        %tmp.152 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.152 102 16 25 ];
+        symbol [ sec %tmp.153 102 26 29 ];
+        %tmp.153 = getv %tmp.152 :sec;
+        symbol [ format %tmp.154 102 30 36 ];
+        %tmp.154 = getv function %tmp.153 :format;
+        %tmp.155 = "%02d";
+        %tmp.156 = invoke %tmp.153 %tmp.154(%tmp.155);
+        %tmp.157 = dup %tmp.151;
+        %tmp.158 = aputv %tmp.157 2 %tmp.156;
+        %tmp.159 = invoke %tmp.134 %tmp.135(%tmp.136, %tmp.158);
+        lputv %timeString.12 %tmp.159;
+        symbol [ timeString %timeString.12 97 12 22 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 114 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %stats.13 = local;
+        symbol [ stats %stats.13 114 12 17 ];
+        symbol [ System %tmp.160 114 20 26 ];
+        %tmp.160 = getm $.Toybox.System;
+        symbol [ getSystemStats %tmp.161 114 27 41 ];
+        %tmp.161 = getv function %tmp.160 :getSystemStats;
+        %tmp.162 = invoke %tmp.160 %tmp.161();
+        lputv %stats.13 %tmp.162;
+        symbol [ stats %stats.13 114 12 17 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 115 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %battery.14 = local;
+        symbol [ battery %battery.14 115 12 19 ];
+        %tmp.163 = lgetv %stats.13;
+        symbol [ stats %tmp.163 115 22 27 ];
+        symbol [ battery %tmp.164 115 28 35 ];
+        %tmp.164 = getv %tmp.163 :battery;
+        lputv %battery.14 %tmp.164;
+        symbol [ battery %battery.14 115 12 19 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 118 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %isCharging.15 = local;
+        symbol [ isCharging %isCharging.15 118 12 22 ];
+        %tmp.165 = lgetv %stats.13;
+        symbol [ stats %tmp.165 118 25 30 ];
+        symbol [ charging %tmp.166 118 31 39 ];
+        %tmp.166 = getv %tmp.165 :charging;
+        lputv %isCharging.15 %tmp.166;
+        symbol [ isCharging %isCharging.15 118 12 22 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 122 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %batteryString.16 = local;
+        symbol [ batteryString %batteryString.16 122 12 25 ];
+        symbol [ Lang %tmp.167 122 28 32 ];
+        %tmp.167 = getm $.Toybox.Lang;
+        symbol [ format %tmp.168 122 33 39 ];
+        %tmp.168 = getv function %tmp.167 :format;
+        %tmp.169 = "$1$%$2$";
+        %tmp.170 = newa 2;
+        %tmp.171 = lgetv %battery.14;
+        symbol [ battery %tmp.171 122 52 59 ];
+        symbol [ format %tmp.172 122 60 66 ];
+        %tmp.172 = getv function %tmp.171 :format;
+        %tmp.173 = "%d";
+        %tmp.174 = invoke %tmp.171 %tmp.172(%tmp.173);
+        %tmp.175 = dup %tmp.170;
+        %tmp.176 = aputv %tmp.175 0 %tmp.174;
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_begin:
+        %tmp.177 = lgetv %isCharging.15;
+        symbol [ isCharging %tmp.177 122 74 84 ];
+        bf %tmp.177 @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_false;
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_true:
+        %tmp.178 = " (Charging)";
+        push %tmp.178;
+        goto @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_end;
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_false:
+        %tmp.179 = "";
+        push %tmp.179;
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_end:
+        %tmp.180 = phi [%tmp.177 @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_begin] [%tmp.178 @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_true] [%tmp.179 @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_false] [%tmp.180 @D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_122_74_122_102_end];
+        %tmp.181 = dup %tmp.176;
+        %tmp.182 = aputv %tmp.181 1 %tmp.180;
+        %tmp.183 = invoke %tmp.167 %tmp.168(%tmp.169, %tmp.182);
+        lputv %batteryString.16 %tmp.183;
+        symbol [ batteryString %batteryString.16 122 12 25 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 124 7 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %batteryView.17 = local;
+        symbol [ batteryView %batteryView.17 124 11 22 ];
+        symbol [ View %tmp.185 124 25 29 ];
+        %tmp.185 = getv ? :View;
+        symbol [ findDrawableById %tmp.186 124 30 46 ];
+        %tmp.186 = getv function %tmp.185 :findDrawableById;
+        %tmp.187 = "BatteryLabel";
+        %tmp.188 = invoke %tmp.185 %tmp.186(%tmp.187);
+        %tmp.189 = as %tmp.188 Text;
+        symbol [ Text %tmp.189 124 66 70 ];
+        lputv %batteryView.17 %tmp.189;
+        symbol [ batteryView %batteryView.17 124 11 22 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 125 8 ]
+        %tmp.190 = lgetv %batteryView.17;
+        symbol [ batteryView %tmp.190 125 8 19 ];
+        symbol [ setText %tmp.191 125 20 27 ];
+        %tmp.191 = getv function %tmp.190 :setText;
+        %tmp.192 = lgetv %batteryString.16;
+        symbol [ batteryString %tmp.192 125 28 41 ];
+        invoke %tmp.190 %tmp.191(%tmp.192);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 128 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %batteryIcon.18 = local;
+        symbol [ batteryIcon %batteryIcon.18 128 12 23 ];
+        symbol [ View %tmp.194 128 26 30 ];
+        %tmp.194 = getv ? :View;
+        symbol [ findDrawableById %tmp.195 128 31 47 ];
+        %tmp.195 = getv function %tmp.194 :findDrawableById;
+        %tmp.196 = "Battery";
+        %tmp.197 = invoke %tmp.194 %tmp.195(%tmp.196);
+        %tmp.198 = as %tmp.197 Battery;
+        symbol [ Battery %tmp.198 128 62 69 ];
+        lputv %batteryIcon.18 %tmp.198;
+        symbol [ batteryIcon %batteryIcon.18 128 12 23 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 129 8 ]
+        %tmp.199 = lgetv %batteryIcon.18;
+        symbol [ batteryIcon %tmp.199 129 8 19 ];
+        symbol [ setLevel %tmp.200 129 20 28 ];
+        %tmp.200 = getv function %tmp.199 :setLevel;
+        %tmp.201 = lgetv %battery.14;
+        symbol [ battery %tmp.201 129 29 36 ];
+        %tmp.202 = 100.0;
+        %tmp.203 = div %tmp.201 %tmp.202;
+        invoke %tmp.199 %tmp.200(%tmp.203);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 132 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %numericDateView.19 = local;
+        symbol [ numericDateView %numericDateView.19 132 12 27 ];
+        symbol [ View %tmp.205 132 30 34 ];
+        %tmp.205 = getv ? :View;
+        symbol [ findDrawableById %tmp.206 132 35 51 ];
+        %tmp.206 = getv function %tmp.205 :findDrawableById;
+        %tmp.207 = "DateLabelNumeric";
+        %tmp.208 = invoke %tmp.205 %tmp.206(%tmp.207);
+        %tmp.209 = as %tmp.208 Text;
+        symbol [ Text %tmp.209 132 75 79 ];
+        lputv %numericDateView.19 %tmp.209;
+        symbol [ numericDateView %numericDateView.19 132 12 27 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 133 8 ]
+        %tmp.210 = lgetv %numericDateView.19;
+        symbol [ numericDateView %tmp.210 133 8 23 ];
+        symbol [ setText %tmp.211 133 24 31 ];
+        %tmp.211 = getv function %tmp.210 :setText;
+        %tmp.212 = lgetv %dateStringNum.11;
+        symbol [ dateStringNum %tmp.212 133 32 45 ];
+        invoke %tmp.210 %tmp.211(%tmp.212);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 136 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %dateView.20 = local;
+        symbol [ dateView %dateView.20 136 12 20 ];
+        symbol [ View %tmp.214 136 23 27 ];
+        %tmp.214 = getv ? :View;
+        symbol [ findDrawableById %tmp.215 136 28 44 ];
+        %tmp.215 = getv function %tmp.214 :findDrawableById;
+        %tmp.216 = "DateLabel";
+        %tmp.217 = invoke %tmp.214 %tmp.215(%tmp.216);
+        %tmp.218 = as %tmp.217 Text;
+        symbol [ Text %tmp.218 136 61 65 ];
+        lputv %dateView.20 %tmp.218;
+        symbol [ dateView %dateView.20 136 12 20 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 137 8 ]
+        %tmp.219 = lgetv %dateView.20;
+        symbol [ dateView %tmp.219 137 8 16 ];
+        symbol [ setText %tmp.220 137 17 24 ];
+        %tmp.220 = getv function %tmp.219 :setText;
+        %tmp.221 = lgetv %dateString.10;
+        symbol [ dateString %tmp.221 137 25 35 ];
+        invoke %tmp.219 %tmp.220(%tmp.221);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 139 8 ]
+        [ "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_start" "D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop" ]
+        %view.21 = local;
+        symbol [ view %view.21 139 12 16 ];
+        symbol [ View %tmp.223 139 19 23 ];
+        %tmp.223 = getv ? :View;
+        symbol [ findDrawableById %tmp.224 139 24 40 ];
+        %tmp.224 = getv function %tmp.223 :findDrawableById;
+        %tmp.225 = "TimeLabel";
+        %tmp.226 = invoke %tmp.223 %tmp.224(%tmp.225);
+        %tmp.227 = as %tmp.226 Text;
+        symbol [ Text %tmp.227 139 57 61 ];
+        lputv %view.21 %tmp.227;
+        symbol [ view %view.21 139 12 16 ];
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 140 8 ]
+        %tmp.228 = lgetv %view.21;
+        symbol [ view %tmp.228 140 8 12 ];
+        symbol [ setText %tmp.229 140 13 20 ];
+        %tmp.229 = getv function %tmp.228 :setText;
+        %tmp.230 = lgetv %timeString.12;
+        symbol [ timeString %tmp.230 140 21 31 ];
+        invoke %tmp.228 %tmp.229(%tmp.230);
+[ "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc" 143 8 ]
+        symbol [ View %tmp.232 143 8 12 ];
+        %tmp.232 = getv ? :View;
+        symbol [ onUpdate %tmp.233 143 13 21 ];
+        %tmp.233 = getv function %tmp.232 :onUpdate;
+        %tmp.234 = lgetv %dc;
+        symbol [ dc %tmp.234 143 22 24 ];
+        invoke %tmp.232 %tmp.233(%tmp.234);
+D__stefan_steiger_Downloads_connectiq_sdk_manager_windows_ffasdfasdf_MyMonkey_source_MyMonkeyView_mc_57_4_144_4_stop:
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 149; @symbol_functiondef = [onHide,149,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 153; @symbol_functiondef = [onExitSleep,153,13,24]; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 157; @symbol_functiondef = [onEnterSleep,157,13,25]; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "D:\stefan.steiger\Downloads\connectiq-sdk-manager-windows\ffasdfasdf\MyMonkey\source\MyMonkeyView.mc"; @line = 1; ]
+<init> {
+}
